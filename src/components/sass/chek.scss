@@ -1,0 +1,156 @@
+.check{
+
+  &__categories{
+    outline: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+    transition: .4s;
+    background: #1890FF;
+  }
+
+  &__content{
+    padding: 50px 70px 72px 60px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01);
+    border-radius: 8px;
+    margin-top: 19px;
+  }
+
+  &__title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0C1014;
+  }
+
+  &__search{
+    outline: none;
+    padding: 5px 5px 5px 10px;
+    border-radius: 8px;
+    border: 1px solid;
+  }
+
+  &__link{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    color: #1890FF;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    &-more{
+      margin-top: 20px;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 18px;
+      color: #1890FF;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      &.active{
+        display: none;
+      }
+    }
+
+
+  }
+
+  &__row{
+    display: flex;
+    justify-content: center;
+    gap: 82px;
+    flex-wrap: wrap;
+    padding: 0 100px;
+  }
+
+  &__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 38px;
+  }
+
+  &__card{
+    max-width: 168px;
+    text-align: center;
+
+    &-boxBtn{
+      display: flex;
+      column-gap: 15px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &-delete{
+      background: red;
+      font-weight: 500;
+      font-size: 10px;
+      border-radius: 4px;
+      line-height: 20px;
+      color: #FFFFFF;
+      cursor: pointer;
+      border: none;
+      padding: 5px 10px;
+      transition: .4s;
+
+      &:hover{
+        transform: scale(1.1);
+      }
+      &:active{
+        transform: scale(.9);
+      }
+    }
+
+    &-img{
+      width: 100%;
+      margin-bottom: 32px;
+      height: 168px;
+
+    }
+    &-title{
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: #0C1014;
+    }
+    &-price{
+      font-size: 12px;
+      line-height: 20px;
+      color: #515759;
+      margin: 4px 0 12px;
+    }
+
+    &-btn{
+      background: #1890FF;
+      border-radius: 4px;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 20px;
+      color: #FFFFFF;
+      cursor: pointer;
+      border: none;
+      padding: 5px 10px;
+      transition: .4s;
+
+      &:hover{
+        transform: scale(1.1);
+      }
+      &:active{
+        transform: scale(.9);
+      }
+    }
+  }
+}
+
+.check__btn-margin{
+  padding: 15px 20px;
+}

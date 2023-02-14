@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Inter',sans-serif;
+  font-weight: 400;
+}
+body{
+  background: #F4F4F4;
+  padding: 60px 0 ;
+  position: relative;
+}
+
+.App{
+  &__count{
+    color: #444444;
+    font-size: 20px;
+    font-weight: 800;
+    position: relative;
+    top: 10px;
+    right: 5px;
+    background: #F4F4F4;
+  }
+  &__box-basket{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+  }
+  &__basket{
+    font-size:40px;
+    color: #444444;
+  }
+}
+
+.container{
+  max-width: 1380px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+@import 'header';
+@import "chek";
+@import "footer";
+@import "overlay";

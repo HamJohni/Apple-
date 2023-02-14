@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "https://www.istore.kg/media/products/iphone-14-pro-storage-select-202209-6-1inch-deeppurple_Zck3C2R.webp",
+      "title": "iPhone 14 Pro",
+      "price": "1270",
+      "categories": "phone",
+      "count": 1,
+      "basket": false
+    },
+    {
+      "id": 2,
+      "image": "https://www.istore.kg/media/products/Pro-14-M1-SP-US-1_5LEP3wl.webp",
+      "title": "MacBook Pro 14",
+      "price": "2800",
+      "categories": "mac",
+      "count": 1,
+      "basket": false
+    }
+  ]
+}
